@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import sklearn
 import joblib
-import xgboost
 model=joblib.load("model1")
 def Predict(age,contact,duration,education,pdays,poutcome,previous):
 #Labels for Education
